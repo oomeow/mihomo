@@ -1,0 +1,8 @@
+version: "1"
+rules:
+  - base: Alpha
+    upstream: MetaCubeX:Alpha
+    mergeMethod: hardreset
+  - base: Meta
+    upstream: MetaCubeX:Meta
+    mergeMethod: hardreset
